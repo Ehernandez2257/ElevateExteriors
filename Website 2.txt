@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Exterior Elevate - Pressure Washing</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background: #f9fafb;
+      color: #333;
+    }
+    header {
+      background-color: #005f73;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    header img {
+      height: 50px;
+      width: 50px;
+      object-fit: contain;
+      border-radius: 8px;
+      background: white;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      margin: 0;
+      letter-spacing: 1.2px;
+    }
+    nav {
+      margin-left: auto;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #94d2bd;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80') no-repeat center/cover;
+      color: white;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .hero h2 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    h2.section-title {
+      font-size: 2rem;
+      border-bottom: 3px solid #005f73;
+      display: inline-block;
+      margin-bottom: 20px;
+      padding-bottom: 5px;
+      color: #0a9396;
+    }
+    .services-list {
+      list-style: none;
+      padding: 0;
+    }
+    .services-list li {
+      background: #e0fbfc;
+      margin-bottom: 12px;
+      padding: 15px 20px;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      font-weight: 600;
+      color: #005f73;
+    }
+    .contact-info p {
+      font-size: 1.1rem;
+      margin: 8px 0;
+    }
+    footer {
+      background-color: #001219;
+      color: #94d2bd;
+      text-align: center;
+      padding: 15px 20px;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav {
+        margin-left: 0;
+        margin-top: 10px;
+      }
+      .hero h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <!-- Placeholder logo: replace 'logo.png' with your actual logo file path -->
+  <img src="https://via.placeholder.com/50?text=EE" alt="Exterior Elevate Logo" />
+  <h1>Exterior Elevate</h1>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Professional Pressure Washing Services</h2>
+  <p>Transforming your exterior spaces with power and precision.</p>
+</section>
+
+<main>
+  <section id="services">
+    <h2 class="section-title">Our Services & Pricing</h2>
+    <ul class="services-list">
+      <li>
+        <span>Driveway Cleaning</span> 
+        <span>$150 - $250</span>
+      </li>
+      <li>
+        <span>House Exterior Washing</span>
+        <span>$300 - $500</span>
+      </li>
+      <li>
+        <span>Deck & Patio Cleaning</span>
+        <span>$100 - $200</span>
+      </li>
+      <li>
+        <span>Roof Cleaning</span>
+        <span>$400 - $700</span>
+      </li>
+      <li>
+        <span>Commercial Building Washing</span>
+        <span>Contact for Quote</span>
+      </li>
+    </ul>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About Us</h2>
+    <p>
+      Welcome to Exterior Elevate! I’m Eric Hernandez, founder and lead technician.
+      We specialize in restoring the beauty of your home or business exterior through expert pressure washing.
+      With years of experience and a passion for quality, we guarantee satisfaction and remarkable results.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="contact-info">
+      <p>📞 Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+      <p>📧 Email: <a href="mailto:eric@exteriorelevate.com">eric@exteriorelevate.com</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Exterior Elevate. All rights reserved.
+</footer>
+
+</body>
+</html>
